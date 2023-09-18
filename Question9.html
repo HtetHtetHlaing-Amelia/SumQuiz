@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Question9</title>
+  <link rel="stylesheet" href="Question9.css" />
+  <script src="Question9.js" defer></script>
+</head>
+<body>
+  <div class="header" id="header">
+    <span id="score" class="score">Score : </span>
+    <span id="time" class="time">Time : </span>
+    <span>
+      <table class="td" width="300px" align="center" cellpadding="10px">
+        <tr>
+          <td colspan="3">
+            <button id="start" class="startbtn activestart" onclick="start()">
+              Start
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="equation" colspan="3"><span id="equation"></span> =</td>
+        </tr>
+        <tr>
+          <td>
+            <button id="btn1" class="btn1 inactivebtn" onclick="checkAnswer(this)" disabled></button>
+          </td>
+          <td>
+            <button id="btn2" class="btn2 inactivebtn" onclick="checkAnswer(this)" disabled></button>
+          </td>
+          <td>
+            <button id="btn3" class="btn3 inactivebtn" onclick="checkAnswer(this)" disabled></button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <button id="stop" class="stopbtn inactivestop" onclick="stop()">
+              Stop
+            </button>
+          </td>
+        </tr>
+      </table>
+    </span>
+    <div class="history">
+      <h4>History</h4>
+      <p id="list"></p>
+    </div>
+  </div>
+</body>
+</html>

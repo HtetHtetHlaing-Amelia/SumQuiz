@@ -1,0 +1,88 @@
+* {
+    max-width: 100%;
+    font-family: sans-serif;
+}
+
+/* start for header title and score */
+.header {
+ margin: 20px;
+}
+
+.score {
+   
+    font-weight: 600;
+    float: left;
+    margin-left: 50px;
+}
+
+.time {
+   
+    font-weight: 600;
+    float: right;
+    margin-right: 16%;
+}
+
+/* end for header title and score */
+
+/* For center table (start,stop,card)*/
+.td {
+    font-size: 20px;
+    text-align: center;
+}
+
+.startbtn {
+    border-color: white;
+    border-radius: 8px;
+    width: 300px;
+    color: white;
+    font-size: 23px;
+    padding: 8px;
+}
+
+.activestart {
+    background-color: rgb(102, 211, 102);
+
+}
+
+.inactivestart {
+    background-color: grey;
+}
+
+.stopbtn {
+    border-color: white;
+    border-radius: 8px;
+    width: 300px;
+    color: white;
+    font-size: 23px;
+    padding: 8px;
+}
+
+.activestop {
+    background-color: red;
+}
+
+.inactivestop {
+    background-color: gray;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+    width: 170px;
+    height: 250px;
+    border-color: white;
+    border-radius: 8px;
+}
+
+.inactivebtn {
+    background-color: gray;
+}
+
+.activebtn {
+    background-color: skyblue;
+}
+.list{
+    font-size: 20px;
+}
+
+/* start for history */
